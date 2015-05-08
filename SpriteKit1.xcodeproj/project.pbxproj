@@ -18,6 +18,9 @@
 		D42088961AF7F94500306D51 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D42088941AF7F94500306D51 /* sprites.atlas */; };
 		D42088981AF8041D00306D51 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42088971AF8041D00306D51 /* AVFoundation.framework */; };
 		D420889A1AF807FC00306D51 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42088991AF807FC00306D51 /* GameOverScene.swift */; };
+		D42541051AFC0483008625FA /* explosao.sks in Resources */ = {isa = PBXBuildFile; fileRef = D42541031AFC0483008625FA /* explosao.sks */; };
+		D42541061AFC0483008625FA /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = D42541041AFC0483008625FA /* spark.png */; };
+		D42541081AFC1244008625FA /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D42541071AFC1244008625FA /* GameOverScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		D42088941AF7F94500306D51 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 		D42088971AF8041D00306D51 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D42088991AF807FC00306D51 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
+		D42541031AFC0483008625FA /* explosao.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosao.sks; sourceTree = "<group>"; };
+		D42541041AFC0483008625FA /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		D42541071AFC1244008625FA /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				D42088931AF7F94500306D51 /* Sounds */,
 				D42088941AF7F94500306D51 /* sprites.atlas */,
 				D420886F1AF7F60B00306D51 /* AppDelegate.swift */,
+				D42541071AFC1244008625FA /* GameOverScene.sks */,
+				D42541031AFC0483008625FA /* explosao.sks */,
+				D42541041AFC0483008625FA /* spark.png */,
 				D42088731AF7F60B00306D51 /* GameScene.swift */,
 				D42088751AF7F60B00306D51 /* GameViewController.swift */,
 				D42088991AF807FC00306D51 /* GameOverScene.swift */,
@@ -209,7 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42088961AF7F94500306D51 /* sprites.atlas in Resources */,
+				D42541051AFC0483008625FA /* explosao.sks in Resources */,
 				D420887E1AF7F60B00306D51 /* LaunchScreen.xib in Resources */,
+				D42541061AFC0483008625FA /* spark.png in Resources */,
+				D42541081AFC1244008625FA /* GameOverScene.sks in Resources */,
 				D420887B1AF7F60B00306D51 /* Images.xcassets in Resources */,
 				D42088951AF7F94500306D51 /* Sounds in Resources */,
 				D42088791AF7F60B00306D51 /* Main.storyboard in Resources */,
